@@ -1,0 +1,411 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4?styles=18004');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1700px, 100vw);
+    position: relative;
+    width: 100%;
+}
+
+.main .box {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    left: 0vh;
+}
+
+nav {
+    justify-content: space-around;
+    margin: auto;
+    display: flex;
+    
+    align-items:center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+.hero {
+    font-family: 'Segoe UI', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 1px;
+    padding: 0 30px;
+
+}
+
+.hero> :first-child {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.hero> :nth-child(4) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero> :nth-child(5) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero> :nth-child(6) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.separation {
+    height: 2.6px;
+    background-color: rgb(224, 58, 58);
+}
+.btn {
+    padding: 4px 8px 4px 8px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border-radius: 4px;
+    color: white;
+    width: 80px;
+    border: 1px solid rgb(112, 111, 111, 0.7);
+}
+
+.btn-red {
+    padding: 10px 24px;
+    font-weight: 550;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+
+.btn-red-sm {
+    padding: 6px 13px 4px 13px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    font-size: 12px;
+    border: 1px solid red;
+}
+
+.main input{
+    padding: 9px 10px;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    width: 190px;
+    border: 1px solid rgb(112, 111, 111, 0.7);
+}
+.hero input{
+    padding: 9px 10px;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    width: 190px;
+    border: 1px solid rgb(112, 111, 111, 0.7);
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.middle{
+    background-color: black;
+    height: 1000px;
+    width: 68%;
+    font-family: 'Segoe UI', sans-serif;  
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    gap: 12px;
+    padding: 0px 350px 0px 170px;
+    zoom: 110%;
+}
+.lower {
+    background-color: black;
+    height: 100px;
+    width: 70%;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: absolute;
+    gap: 12px;
+    padding: 0px 350px 0px 150px;
+    top: 1070px;
+    zoom: 110%;
+}
+
+.middle> :nth-child(1) {
+    color: white;
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.middle> :nth-child(2) {
+    padding: 13px 75px 13px 10px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border-radius: 4px;
+    color: white;
+    width: 80px;
+    border: 1px solid rgb(112, 111, 111, 0.7);
+    font-size: 17px;
+    position: relative;
+}
+.middle> :nth-child(3) {
+    padding: 13px 75px 13px 12px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border-radius: 4px;
+    color: white;
+    width: 80px;
+    border: 1px solid rgb(112, 111, 111, 0.7);
+    font-size: 17px;
+    position: relative;
+    left: 120px;
+    bottom: 60px;
+}
+.middle> :nth-child(4){
+    height: 50vh;
+    background-image: url(assets/images/top\ movies.png);
+    position: relative;
+    width: 100%;
+    zoom: 100%;
+    bottom: 60px;
+}
+.middle> :nth-child(5){
+    color: white;
+    position: relative;
+    padding: 50px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: bolder;
+    zoom: 80%;
+    bottom: 40px;
+}
+.lower .box1{
+    background-color: rgb(37, 37, 65);
+    height: 50vh;
+    position: relative;
+    bottom: 30px;
+    border-radius: 20px;
+    width: 540px;
+    padding: 20px 20px 0px 20px;
+}
+.lower> :nth-child(1)> :nth-child(1){
+    color: white;
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: 30px;
+}
+.lower> :nth-child(1)> :nth-child(2){
+    color: rgb(255, 255, 255,0.7);;
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 60px;
+}
+.lower .box2{
+    background-color: rgb(37, 37, 65);
+    height: 50vh;
+    position: relative;
+    bottom: 30px;
+    border-radius: 20px;
+    width: 520px;
+    padding: 20px 20px 0px 20px;
+}
+.lower> :nth-child(2)> :nth-child(1){
+    color: white;
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: 30px;
+}
+.lower> :nth-child(2)> :nth-child(2){
+    color: rgb(255, 255, 255,0.7);;
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 60px;
+}
+.lower .box3{
+    background-color: rgb(37, 37, 65);
+    height: 50vh;
+    position: relative;
+    bottom: 30px;
+    border-radius: 20px;
+    width: 520px;
+    padding: 20px 20px 0px 20px;
+}
+.lower> :nth-child(3)> :nth-child(1){
+    color: white;
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: 30px;
+}
+.lower> :nth-child(3)> :nth-child(2){
+    color: rgb(255, 255, 255,0.7);;
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 60px;
+}
+.lower .box4{
+    background-color: rgb(37, 37, 65);
+    height: 50vh;
+    position: relative;
+    bottom: 30px;
+    border-radius: 20px;
+    width: 520px;
+    padding: 20px 20px 0px 20px;
+}
+.lower> :nth-child(4)> :nth-child(1){
+    color: white;
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: 30px;
+}
+.lower> :nth-child(4)> :nth-child(2){
+    color: rgb(255, 255, 255,0.7);
+    position: relative;
+    padding: 30px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 60px;
+}
+.lower> :nth-child(1) :nth-child(3){
+    position: relative;
+    left: 110px;
+    top: 10px;
+}
+.lower> :nth-child(2) :nth-child(3){
+    position: relative;
+    left: 110px;
+    bottom: 25px;
+}
+.lower> :nth-child(3) :nth-child(3){
+    position: relative;
+    left: 106px;
+    bottom: 27px;
+}
+.lower> :nth-child(4) :nth-child(3){
+    position: relative;
+    left: 110px;
+    bottom: 40px;
+}
+.bottom{
+    height: 90vh;
+    position: absolute;
+    top: 250vh;
+    background-color: black;
+    width: 70%;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    color: white;
+    gap: 12px;
+    padding: 0px 350px 0px 150px;
+    zoom: 110%;
+}
+.bottom :first-child{
+    font-size: 24px;
+}
+.bottom .b1{
+    color: white;
+    background-color: rgb(49, 48, 48);
+    padding: 10px 0px 10px 0px;
+    height: 400px;
+    width: 100%;
+    font-size: 24px;
+    border: 1px solid rgba(54, 54, 54, 0.7);
+    
+}
+.last{
+    padding: 1550px 0vh 20vh 0vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+.last :nth-child(2) :nth-child(1){
+    color: rgb(160, 158, 158);
+    padding: 5px 0 20px 150px;
+    font-size: 14px;
+}
+.last :nth-child(2) :nth-child(2){
+    color: rgb(160, 158, 158);
+    font-size: 14px;
+}
+
+.last :nth-child(3) :nth-child(1){
+    color: rgb(143, 143, 143);
+    padding: 5px 50px;
+    font-size: 14px;
+}
+.last .l{
+    padding: 10px 150px 0px 150px;
+}
+
+
+
+
