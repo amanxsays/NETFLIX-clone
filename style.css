@@ -405,7 +405,17 @@ nav button {
 .last .l{
     padding: 10px 150px 0px 150px;
 }
-
+.author :nth-child(1){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(147, 147, 147);
+    padding: 1px 0px 0px 950px;
+    position: relative; 
+}
+.author :nth-child(3){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(147, 147, 147);
+    padding: 1px 10px 0px 980px; 
+}
 
 
 
