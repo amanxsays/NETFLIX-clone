@@ -236,7 +236,7 @@ nav button {
     bottom: 40px;
 }
 .lower .box1{
-    background-color: rgb(37, 37, 65);
+    background:linear-gradient(135deg,rgb(37,37,65),#1c0121);
     height: 50vh;
     position: relative;
     bottom: 30px;
@@ -261,7 +261,7 @@ nav button {
     bottom: 60px;
 }
 .lower .box2{
-    background-color: rgb(37, 37, 65);
+    background:linear-gradient(135deg,rgb(37,37,65),#1c0121);
     height: 50vh;
     position: relative;
     bottom: 30px;
@@ -286,7 +286,7 @@ nav button {
     bottom: 60px;
 }
 .lower .box3{
-    background-color: rgb(37, 37, 65);
+    background:linear-gradient(135deg,rgb(37,37,65),#1c0121);
     height: 50vh;
     position: relative;
     bottom: 30px;
@@ -311,7 +311,7 @@ nav button {
     bottom: 60px;
 }
 .lower .box4{
-    background-color: rgb(37, 37, 65);
+    background:linear-gradient(135deg,rgb(37,37,65),#1c0121);
     height: 50vh;
     position: relative;
     bottom: 30px;
